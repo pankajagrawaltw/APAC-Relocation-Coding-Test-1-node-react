@@ -4,7 +4,6 @@ const app = express();
 const mongoose = require('mongoose');
 const mongoDBErrors = require('mongoose-mongodb-errors');
 const bodyParser = require('body-parser');
-const jwt = require('jsonwebtoken');
 
 const api = require('./api/routes');
 

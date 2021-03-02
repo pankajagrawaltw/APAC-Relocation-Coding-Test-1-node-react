@@ -4,7 +4,6 @@ import { getUsers } from '../redux/actions/userAction'
 import { Link } from 'react-router-dom'
 const Homepage = () => {
     const dispatch = useDispatch();
-    dispatch(getUsers())
 
     const { users } = useSelector(state => state.user);
 
